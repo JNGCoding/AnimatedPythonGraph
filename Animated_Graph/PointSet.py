@@ -42,6 +42,6 @@ def makePosition(x, y):
 def OSP(pointgroup: PointGroup) -> int:
     i = 0
     for points in pointgroup.give():
-        if 0 < points.pos[0] < width:
+        if 0 < points.pos[0] < WIDTH:
             i += 1
     return i
