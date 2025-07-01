@@ -38,7 +38,7 @@ class PointGroup:
 def makePosition(x, y):
     return [WIDTH//2 + x, HEIGHT//2 - y]
 
-
+# Checks if a point is out of bounds.
 def OSP(pointgroup: PointGroup) -> int:
     i = 0
     for points in pointgroup.give():
