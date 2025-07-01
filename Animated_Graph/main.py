@@ -1,3 +1,22 @@
+"""
+Made by Dhruv.
+
+Program Briefing:
+    1) This python program uses tkinter and pygame libraries to create animated graphs of a mathematical function.
+    2) The mathematical function is defined in the `f(x, a)` function, which can be modified to change the graph.
+    3) The Control Panel is created using tkinter, allowing users to adjust various parameters on the fly.
+    4) The graph is drawn using pygame to allow real-time updates and animations.
+
+Program Flow:
+    1) Initialize pygame and tkinter.
+    2) Create a window for the graph and a control panel.
+    3) Define the mathematical function to be graphed.
+    4) Set up controls for adjusting offsets and magnifications.
+    5) Enter the main loop to update the graph and control panel in real-time.
+    6) Handle user inputs to modify graph parameters dynamically.
+"""
+
+
 import pygame
 from SETTINGS import *
 import numpy
