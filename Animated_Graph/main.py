@@ -38,7 +38,7 @@ variable2 = 0
 pointGroup = PointSet.PointGroup()
 
 for i in range(len(SetX)):
-    pointGroup.assign(PointSet.Point(PointSet.makePosition(i - 800, 0), i))
+    pointGroup.assign(PointSet.Point(PointSet.makePosition(i - WIDTH, 0), i))
 
 xOffset = 0
 yOffset = 0
