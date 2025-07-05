@@ -32,7 +32,7 @@ pygame.init()
 window = pygame.display.set_mode((WIDTH, HEIGHT))
 Clock = pygame.time.Clock()
 
-SetX = numpy.arange(0, 8, 0.01)
+SetX = numpy.arange(0, WIDTH // 100, 0.01)
 variable = 0
 variable2 = 0
 pointGroup = PointSet.PointGroup()
